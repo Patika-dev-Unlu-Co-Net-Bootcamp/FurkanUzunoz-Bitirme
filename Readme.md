@@ -1,9 +1,5 @@
 # UnluCo .net Bitirme Projesi
 --------------------------------------------------------------------
-
-
-
-* Web Api 
   
 * Projemde Generic Repository Pattern ve UnitOfWork Pattern Kullandım.
 
