@@ -21,6 +21,4 @@
 
 * Ürün için yapmış olduğum ProductController mevcut bu controller sayesinde ekleme silme listeleme gibi işlemleri gerçekleştiriyorum.Kullanıcıdan aldığım ürün bilgilerinde resim alanını Ifile tipinde alıp ardından bunu byte dizisine çevirip veri tabanında saklıyorum . veri tabanında çektiğimde'de tekrar resime çeviriyorum. İstenildiği şekilde olabildiğince solid prensiblerine uygun Generic Repository pattern ve UnitOfWork patterni kullanarak gerçekleştirdim. Eksikleri mevcut ama umarım beğenirsiniz.
 
-* 2 farklı endpoint'te response cache yapısı k
-  
-* Distributed cache redis ile birlikte GetAllAccount endpointinde kullanılmıştır.
+
