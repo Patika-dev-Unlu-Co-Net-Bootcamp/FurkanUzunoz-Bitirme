@@ -1,0 +1,57 @@
+﻿@layout LoginLayout
+@page "/Signup"
+@using Newtonsoft.Json
+@using Blazzor.Services
+@using Blazzor.Data
+@using System.Security.Claims
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+@inject Blazored.LocalStorage.ILocalStorageService localStorageService
+@inject IUserService userService
+<EditForm Model="@user" OnValidSubmit="@SignUp">
+    <div>
+        <br /><br /><br /><br /><br />
+    </div>
+    <div>
+        <h3 style="font-weight:bold; color:purple">ÜnlüCo Bitirme</h3>
+    </div>
+    <div>
+        <br />
+    </div>
+    <div class="col-12 row">
+        <input class="form-control col-12" @bind="user.Username" placeholder="email address" />
+    </div>
+    <div class="col-12 row">
+        <input class="form-control col-12" @bind="user.Gsm" placeholder="email address" />
+    </div>
+    <div class="col-12 row">
+        <input class="form-control col-12" @bind="user.Password" placeholder="email address" />
+    </div>
+    <div class="col-12 row">
+        <input class="form-control col-12" @bind="user.Gender" placeholder="email address" />
+    </div>
+    <div class="col-12 row">
+        <input class="form-control col-12" @bind="user.Email" placeholder="email address" />
+    </div>
+    
+    <div class="col-12 row">
+        <span class="col-12"></span>
+        <input type="submit" class="form-control col-6 btn btn-primary" value="Login" />
+        
+    </div>
+    <br />
+    <div class="col-12 row" style="text-align:left; font-weight:bold">
+        <span class="col-12">@Message</span>
+    </div>
+</EditForm>
+@code {
+    private User user;
+    public string Message { get; set; }
+    private async Task SignUp()
+    {
+        var result = await userService.CreateAccount(user);
+        Message = result.message;
+
+    }
+    
+}

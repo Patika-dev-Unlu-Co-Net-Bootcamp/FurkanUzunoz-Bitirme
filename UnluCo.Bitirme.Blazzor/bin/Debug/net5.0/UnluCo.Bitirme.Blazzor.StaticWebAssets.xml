@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\ASUS\source\repos\UnluCo.Bitirme.WEBAPI\UnluCo.Bitirme.Blazzor\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/BlazorPro.Spinkit" Path="C:\Users\ASUS\.nuget\packages\blazorpro.spinkit\1.2.0\build\..\staticwebassets\" />
+</StaticWebAssets>

@@ -1,0 +1,12 @@
+C:\Users\ASUS\source\repos\UnluCo.Bitirme.WEBAPI\SharedLayer\bin\Debug\net5.0\SharedLayer.deps.json
+C:\Users\ASUS\source\repos\UnluCo.Bitirme.WEBAPI\SharedLayer\bin\Debug\net5.0\SharedLayer.dll
+C:\Users\ASUS\source\repos\UnluCo.Bitirme.WEBAPI\SharedLayer\bin\Debug\net5.0\ref\SharedLayer.dll
+C:\Users\ASUS\source\repos\UnluCo.Bitirme.WEBAPI\SharedLayer\bin\Debug\net5.0\SharedLayer.pdb
+C:\Users\ASUS\source\repos\UnluCo.Bitirme.WEBAPI\SharedLayer\obj\Debug\net5.0\SharedLayer.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\UnluCo.Bitirme.WEBAPI\SharedLayer\obj\Debug\net5.0\SharedLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\UnluCo.Bitirme.WEBAPI\SharedLayer\obj\Debug\net5.0\SharedLayer.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\UnluCo.Bitirme.WEBAPI\SharedLayer\obj\Debug\net5.0\SharedLayer.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\UnluCo.Bitirme.WEBAPI\SharedLayer\obj\Debug\net5.0\SharedLayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\UnluCo.Bitirme.WEBAPI\SharedLayer\obj\Debug\net5.0\SharedLayer.dll
+C:\Users\ASUS\source\repos\UnluCo.Bitirme.WEBAPI\SharedLayer\obj\Debug\net5.0\ref\SharedLayer.dll
+C:\Users\ASUS\source\repos\UnluCo.Bitirme.WEBAPI\SharedLayer\obj\Debug\net5.0\SharedLayer.pdb
